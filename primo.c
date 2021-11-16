@@ -3,8 +3,8 @@
 
 int main(int argv, char *argv[]) {
     int anni;
-    printf("Forse...(numero parametri: %d) %s\n", argv, argv, argv[0]);
-    if (argv>1) printf("Primo argomento utente: %s\n", argv[1]);
+    printf("Forse...(numero parametri: %d) %s\n", argc, argv [0]);
+    if (argc>1) printf("Primo argomento utente: %s\n", argv[1]);
     if (argv>2) {
         anni = atoi(argv[2]);
         if (anni != 0)
