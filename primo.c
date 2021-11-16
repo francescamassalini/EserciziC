@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *arg[]) {
+int main(int argv, char *argv[]) {
     int anni;
-    printf("Forse...(numero parametri: %d) %s\n", argc, argc, argv[0]);
-    if (argc>1) printf("Primo argomento utente: %s\n", argv[1]);
-    if (argc>2) {
+    printf("Forse...(numero parametri: %d) %s\n", argv, argv, argv[0]);
+    if (argv>1) printf("Primo argomento utente: %s\n", argv[1]);
+    if (argv>2) {
         anni = atoi(argv[2]);
         if (anni != 0)
             printf("Secondo argomento utente (%s) valido %d\n", argv[2], anni);
