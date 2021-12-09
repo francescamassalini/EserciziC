@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 char globo [9] = "evviva!";
 
 int main (int argc, char *argv[]) {
